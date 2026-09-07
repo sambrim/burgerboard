@@ -1,6 +1,6 @@
 # 🍔 BurgerBoard
 
-A community-driven gallery for sharing burger photos from around the world. No accounts, no tracking, no nonsense — just burgers.
+A community-driven gallery for sharing burger photos from around the world. No accounts, no tracking, no nonsense - just burgers.
 
 ## Overview
 
@@ -11,37 +11,37 @@ BurgerBoard is a privacy-first photo gallery where burger enthusiasts can anonym
 ## Features
 
 ### 🔒 Privacy First
-- **Fully anonymous uploads** — No accounts, emails, or names required
-- **No IP logging** — Visitor IPs are never stored; only hashed tokens for rate limiting
-- **EXIF stripping** — All image metadata (GPS, device info, timestamps) automatically removed
-- **No tracking** — Zero analytics, no third-party cookies, no advertising
-- **Cloudflare protected** — Your real IP never reaches our origin server
-- **HTTPS encrypted** — All connections secured end-to-end
+- **Fully anonymous uploads** - No accounts, emails, or names required
+- **No IP logging** - Visitor IPs are never stored; only hashed tokens for rate limiting
+- **EXIF stripping** - All image metadata (GPS, device info, timestamps) automatically removed
+- **No tracking** - Zero analytics, no third-party cookies, no advertising
+- **Cloudflare protected** - Your real IP never reaches our origin server
+- **HTTPS encrypted** - All connections secured end-to-end
 
 ### 🖼️ Gallery Features
-- **Responsive design** — Works seamlessly on desktop and mobile
-- **Lazy loading** — Efficient image loading with `loading="lazy"`
-- **Lightbox viewer** — Click images to view full-size in an overlay
-- **Pagination** — 24 burgers per page with navigation controls
-- **Captions** — Optional user-provided descriptions (max 300 characters)
-- **Timestamps** — Upload dates displayed in human-readable format
+- **Responsive design** - Works seamlessly on desktop and mobile
+- **Lazy loading** - Efficient image loading with `loading="lazy"`
+- **Lightbox viewer** - Click images to view full-size in an overlay
+- **Pagination** - 24 burgers per page with navigation controls
+- **Captions** - Optional user-provided descriptions (max 300 characters)
+- **Timestamps** - Upload dates displayed in human-readable format
 
 ### 📝 Submission Features
-- **Multiple formats** — JPEG, PNG, WebP, HEIC, HEIF, GIF, BMP, TIFF
-- **Large files** — Up to 8MB per upload
-- **Auto-conversion** — All images converted to JPEG for consistency
-- **Auto-rotation** — Photos automatically rotated based on EXIF orientation
-- **Spam protection** — Rate limiting (5 uploads per IP per 30 minutes)
-- **Honeypot field** — Bot protection via hidden form field
-- **CSRF protection** — Token-based request verification
-- **Admin notifications** — SMS alerts via 46elks when new submissions arrive
+- **Multiple formats** - JPEG, PNG, WebP, HEIC, HEIF, GIF, BMP, TIFF
+- **Large files** - Up to 8MB per upload
+- **Auto-conversion** - All images converted to JPEG for consistency
+- **Auto-rotation** - Photos automatically rotated based on EXIF orientation
+- **Spam protection** - Rate limiting (5 uploads per IP per 30 minutes)
+- **Honeypot field** - Bot protection via hidden form field
+- **CSRF protection** - Token-based request verification
+- **Admin notifications** - SMS alerts via 46elks when new submissions arrive
 
 ### 🔍 SEO Optimized
-- **XML sitemap** — Dynamic sitemap for search engines
-- **Open Graph tags** — Rich previews on social media
-- **Canonical URLs** — Proper URL structuring
-- **Meta tags** — Descriptive titles and descriptions
-- **robots.txt** — Search engine directives
+- **XML sitemap** - Dynamic sitemap for search engines
+- **Open Graph tags** - Rich previews on social media
+- **Canonical URLs** - Proper URL structuring
+- **Meta tags** - Descriptive titles and descriptions
+- **robots.txt** - Search engine directives
 
 ## Installation
 
@@ -162,32 +162,32 @@ chmod 755 /var/uploads/burgerboard/
 ## API Endpoints
 
 ### Gallery
-- `GET /` — Homepage with all approved burgers (paginated)
-- `GET /?page=2` — View burgers by page number
+- `GET /` - Homepage with all approved burgers (paginated)
+- `GET /?page=2` - View burgers by page number
 
 ### Upload
-- `GET /upload.php` — Upload form
-- `POST /upload.php` — Submit a burger image
+- `GET /upload.php` - Upload form
+- `POST /upload.php` - Submit a burger image
 
 ### Images
-- `GET /image.php?id=<uuid>` — View a specific burger image
+- `GET /image.php?id=<uuid>` - View a specific burger image
 
 ### Info Pages
-- `GET /about.php` — About page and privacy policy
-- `GET /sitemap.php` — XML sitemap
-- `GET /robots.txt` — Search engine directives
+- `GET /about.php` - About page and privacy policy
+- `GET /sitemap.php` - XML sitemap
+- `GET /robots.txt` - Search engine directives
 
 ## Security Features
 
-- **CSRF tokens** — All forms protected with unique session tokens
-- **Rate limiting** — IP-based upload throttling via hashed IPs
-- **File validation** — Server-side MIME type verification with `finfo`
-- **UUID filenames** — Images stored with cryptographically random names
-- **SQL injection prevention** — All database queries use prepared statements
-- **XSS protection** — Output HTML-escaped with the `h()` helper
-- **Spam prevention** — Honeypot form field for bot detection
-- **EXIF stripping** — All metadata removed before storage
-- **Image format enforcement** — All images re-encoded to JPEG
+- **CSRF tokens** - All forms protected with unique session tokens
+- **Rate limiting** - IP-based upload throttling via hashed IPs
+- **File validation** - Server-side MIME type verification with `finfo`
+- **UUID filenames** - Images stored with cryptographically random names
+- **SQL injection prevention** - All database queries use prepared statements
+- **XSS protection** - Output HTML-escaped with the `h()` helper
+- **Spam prevention** - Honeypot form field for bot detection
+- **EXIF stripping** - All metadata removed before storage
+- **Image format enforcement** - All images re-encoded to JPEG
 
 ## Privacy Policy
 
