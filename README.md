@@ -6,8 +6,6 @@ A community-driven gallery for sharing burger photos from around the world. No a
 
 BurgerBoard is a privacy-first photo gallery where burger enthusiasts can anonymously upload and share photos of their favorite burgers. Every submission is reviewed by a human before appearing publicly to maintain gallery quality.
 
-**Live Site:** https://burgerboard.net
-
 ## Features
 
 ### 🔒 Privacy First
