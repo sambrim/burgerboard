@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /about.php
+Disallow: /manage/
+Disallow: /manage/rotate.php
+
+Sitemap: https://burgerboard.net/sitemap.php
